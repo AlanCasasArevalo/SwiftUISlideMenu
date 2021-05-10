@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F68A660226492FCC00374DFB /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A660126492FCC00374DFB /* SideMenu.swift */; };
+		F68A66042649333200374DFB /* MenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A66032649333200374DFB /* MenuContent.swift */; };
 		F6954755264928E200FD9FB9 /* SwiftUISlideMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6954754264928E200FD9FB9 /* SwiftUISlideMenuApp.swift */; };
 		F6954757264928E200FD9FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6954756264928E200FD9FB9 /* ContentView.swift */; };
 		F6954759264928E400FD9FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6954758264928E400FD9FB9 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F68A660126492FCC00374DFB /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		F68A66032649333200374DFB /* MenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContent.swift; sourceTree = "<group>"; };
 		F6954751264928E200FD9FB9 /* SwiftUISlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6954754264928E200FD9FB9 /* SwiftUISlideMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISlideMenuApp.swift; sourceTree = "<group>"; };
 		F6954756264928E200FD9FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 		F6954748264928E200FD9FB9 = {
 			isa = PBXGroup;
 			children = (
+				F68A66032649333200374DFB /* MenuContent.swift */,
 				F6954753264928E200FD9FB9 /* SwiftUISlideMenu */,
 				F6954765264928E400FD9FB9 /* SwiftUISlideMenuTests */,
 				F6954770264928E400FD9FB9 /* SwiftUISlideMenuUITests */,
@@ -97,6 +102,7 @@
 			children = (
 				F6954754264928E200FD9FB9 /* SwiftUISlideMenuApp.swift */,
 				F6954756264928E200FD9FB9 /* ContentView.swift */,
+				F68A660126492FCC00374DFB /* SideMenu.swift */,
 				F6954758264928E400FD9FB9 /* Assets.xcassets */,
 				F695475D264928E400FD9FB9 /* Info.plist */,
 				F695475A264928E400FD9FB9 /* Preview Content */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68A66042649333200374DFB /* MenuContent.swift in Sources */,
+				F68A660226492FCC00374DFB /* SideMenu.swift in Sources */,
 				F6954757264928E200FD9FB9 /* ContentView.swift in Sources */,
 				F6954755264928E200FD9FB9 /* SwiftUISlideMenuApp.swift in Sources */,
 			);
