@@ -26,6 +26,7 @@ struct SideMenu: View {
             
             //Menu Content
             HStack {
+                // If you want the menu on opposite side just change Spacer() after MenuContent
                 Spacer()
                 MenuContent(width: UIScreen.main.bounds.width/1.6)
                     .frame(width: width)
