@@ -13,8 +13,6 @@
 		F6954757264928E200FD9FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6954756264928E200FD9FB9 /* ContentView.swift */; };
 		F6954759264928E400FD9FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6954758264928E400FD9FB9 /* Assets.xcassets */; };
 		F695475C264928E400FD9FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695475B264928E400FD9FB9 /* Preview Assets.xcassets */; };
-		F6954767264928E400FD9FB9 /* SwiftUISlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6954766264928E400FD9FB9 /* SwiftUISlideMenuTests.swift */; };
-		F6954772264928E400FD9FB9 /* SwiftUISlideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6954771264928E400FD9FB9 /* SwiftUISlideMenuUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		F695475B264928E400FD9FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F695475D264928E400FD9FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6954762264928E400FD9FB9 /* SwiftUISlideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISlideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6954766264928E400FD9FB9 /* SwiftUISlideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISlideMenuTests.swift; sourceTree = "<group>"; };
-		F6954768264928E400FD9FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F695476D264928E400FD9FB9 /* SwiftUISlideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISlideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6954771264928E400FD9FB9 /* SwiftUISlideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISlideMenuUITests.swift; sourceTree = "<group>"; };
-		F6954773264928E400FD9FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +75,6 @@
 			children = (
 				F68A66032649333200374DFB /* MenuContent.swift */,
 				F6954753264928E200FD9FB9 /* SwiftUISlideMenu */,
-				F6954765264928E400FD9FB9 /* SwiftUISlideMenuTests */,
-				F6954770264928E400FD9FB9 /* SwiftUISlideMenuUITests */,
 				F6954752264928E200FD9FB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,24 +108,6 @@
 				F695475B264928E400FD9FB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F6954765264928E400FD9FB9 /* SwiftUISlideMenuTests */ = {
-			isa = PBXGroup;
-			children = (
-				F6954766264928E400FD9FB9 /* SwiftUISlideMenuTests.swift */,
-				F6954768264928E400FD9FB9 /* Info.plist */,
-			);
-			path = SwiftUISlideMenuTests;
-			sourceTree = "<group>";
-		};
-		F6954770264928E400FD9FB9 /* SwiftUISlideMenuUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F6954771264928E400FD9FB9 /* SwiftUISlideMenuUITests.swift */,
-				F6954773264928E400FD9FB9 /* Info.plist */,
-			);
-			path = SwiftUISlideMenuUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6954767264928E400FD9FB9 /* SwiftUISlideMenuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6954772264928E400FD9FB9 /* SwiftUISlideMenuUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
