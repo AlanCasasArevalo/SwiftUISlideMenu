@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUISlideMenu
-//
-//  Created by Tecdata Engineering on 10/5/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {

@@ -1,10 +1,3 @@
-//
-//  SwiftUISlideMenuTests.swift
-//  SwiftUISlideMenuTests
-//
-//  Created by Tecdata Engineering on 10/5/21.
-//
-
 import XCTest
 @testable import SwiftUISlideMenu
 
